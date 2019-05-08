@@ -5,10 +5,10 @@ changyan: ## Your changyan appid, e.g. cyrALsXc8
 changyan_conf: ## Your changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
 gitment:
   enable: false ## If you want to use Gitment comment system please set the value to true.
-  owner: ## Your GitHub ID, e.g. username
-  repo: ## The repository to store your comments, make sure you're the repo's owner, e.g. imsun.github.io
-  client_id: ## GitHub client ID, e.g. 75752dafe7907a897619
-  client_secret: ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
+  owner: throneclay ## Your GitHub ID, e.g. username
+  repo: blog ## The repository to store your comments, make sure you're the repo's owner, e.g. imsun.github.io
+  client_id: 1c6b850e1a3eca2d41bd ## GitHub client ID, e.g. 75752dafe7907a897619
+  client_secret: 0875d49f970c1c0508ee31ebfffe0ab560f4fdc7 ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
 gitalk:
   enable: false ## If you want to use Gitment comment system please set the value to true.
   owner:  ## Your GitHub ID, e.g. username
@@ -83,12 +83,10 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: github
+    url: https://github.com/throneclay
+  - title: zhangjikai
+    url: http://zhangjikai.com/
 
 timeline:
   - num: 1
