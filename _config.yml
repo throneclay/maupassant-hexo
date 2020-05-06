@@ -24,7 +24,7 @@ valine: ## https://valine.js.org
   verify: false ## Validation code.
   placeholder: Just so so ## Comment box placeholders.
   avatar: 'mm' ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
-  pageSize: 10 ## Number of comments per page.
+  pageSize: 20 ## Number of comments per page.
   guest_info: nick,mail,link ## Attributes of reviewers.
 
 google_search: true ## Use Google search, true/false.
